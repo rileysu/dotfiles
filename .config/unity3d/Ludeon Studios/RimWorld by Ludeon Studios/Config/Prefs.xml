@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PrefsData>
+  <volumeGame>0.8</volumeGame>
+  <volumeMusic>0.4</volumeMusic>
+  <uiScale>1</uiScale>
+  <hatsOnlyOnMap>False</hatsOnlyOnMap>
+  <adaptiveTrainingEnabled>True</adaptiveTrainingEnabled>
+  <preferredNames />
+  <resourceReadoutCategorized>False</resourceReadoutCategorized>
+  <runInBackground>False</runInBackground>
+  <customCursorEnabled>True</customCursorEnabled>
+  <edgeScreenScroll>True</edgeScreenScroll>
+  <temperatureMode>Celsius</temperatureMode>
+  <autosaveIntervalDays>1</autosaveIntervalDays>
+  <showRealtimeClock>False</showRealtimeClock>
+  <maxNumberOfPlayerHomes>1</maxNumberOfPlayerHomes>
+  <plantWindSway>False</plantWindSway>
+  <pauseOnLoad>False</pauseOnLoad>
+  <pauseOnUrgentLetter>True</pauseOnUrgentLetter>
+  <animalNameMode>None</animalNameMode>
+  <devMode>False</devMode>
+  <langFolderName>English</langFolderName>
+  <logVerbose>False</logVerbose>
+  <pauseOnError>False</pauseOnError>
+  <resetModsConfigOnCrash>True</resetModsConfigOnCrash>
+</PrefsData>
