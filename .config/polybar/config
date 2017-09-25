@@ -65,7 +65,7 @@ modules-left = i3 mpd
 modules-center = xwindow
 modules-right = xkeyboard xbacklight volume wifi battery memory cpu date
 
-tray-position = right
+tray-position = left
 tray-padding = 4
 tray-maxsize = 16
 ;tray-transparent = true
@@ -288,6 +288,7 @@ label-disconnected-foreground = #666
 #ramp-signal-3 = 
 #ramp-signal-4 = 
 #ramp-signal-foreground = #666
+
 
 [module/wired]
 type = internal/network

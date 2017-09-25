@@ -94,8 +94,8 @@
 
 # Colors can be one of seven predefined: black, blue, cyan, green, magenta, red, white, yellow.
 # Or defined by hex code '#xxxxxx' (hex code must be within '').
-; background = black
-; foreground = cyan
+background = black
+foreground = '#d0d0d0'
 
 
 [smoothing]

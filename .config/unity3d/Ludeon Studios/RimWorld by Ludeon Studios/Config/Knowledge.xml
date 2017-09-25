@@ -11,11 +11,11 @@
     </li>
     <li>
       <key>Rescuing</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>Capturing</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>ShieldBelts</key>
@@ -23,11 +23,11 @@
     </li>
     <li>
       <key>InteractingWithTraders</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>Drafting</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>BuildOrbitalTradeBeacon</key>
@@ -39,11 +39,11 @@
     </li>
     <li>
       <key>BillsTab</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>OpeningComms</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>DrugAddiction</key>
@@ -59,11 +59,11 @@
     </li>
     <li>
       <key>PrisonerTab</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>SetGrowingZonePlant</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>DrugBurning</key>
@@ -75,19 +75,19 @@
     </li>
     <li>
       <key>CameraDolly</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>CameraZoom</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>TimeControls</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>Pause</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>Stockpiles</key>
@@ -95,31 +95,31 @@
     </li>
     <li>
       <key>Forbidding</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>GrowingFood</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>EquippingWeapons</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>Alerts</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>Mining</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>WorkTab</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>ForbiddingDoors</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>CoverAndShooting</key>
@@ -131,7 +131,7 @@
     </li>
     <li>
       <key>AnimalTaming</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>AnimalTraining</key>
@@ -139,7 +139,7 @@
     </li>
     <li>
       <key>InfoCard</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>StorageTab</key>
@@ -167,7 +167,7 @@
     </li>
     <li>
       <key>MedicalOperations</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>TimeAssignments</key>
@@ -199,7 +199,7 @@
     </li>
     <li>
       <key>ClickingMessages</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>ShotAccuracyTooltip</key>
@@ -211,11 +211,11 @@
     </li>
     <li>
       <key>TradeGoodsMustBeNearBeacon</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>ArrestingCreatesEnemies</key>
-      <value>1</value>
+      <value>0</value>
     </li>
     <li>
       <key>SwitchFlickingDesignation</key>
@@ -223,7 +223,7 @@
     </li>
     <li>
       <key>MaxNumberOfPlayerHomes</key>
-      <value>1</value>
+      <value>0</value>
     </li>
   </knowledge>
 </ConceptKnowledge>

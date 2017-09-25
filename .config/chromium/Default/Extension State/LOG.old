@@ -1,3 +1,6 @@
-2017/07/09-16:10:09.561 811 Reusing MANIFEST /home/riley/.config/chromium/Default/Extension State/MANIFEST-000001
-2017/07/09-16:10:09.561 811 Recovering log #3
-2017/07/09-16:10:09.563 811 Reusing old log /home/riley/.config/chromium/Default/Extension State/000003.log 
+2017/09/23-20:48:49.703 3865 Reusing MANIFEST /home/riley/.config/chromium/Default/Extension State/MANIFEST-000001
+2017/09/23-20:48:49.704 3865 Recovering log #13
+2017/09/23-20:48:49.710 3865 Reusing old log /home/riley/.config/chromium/Default/Extension State/000013.log 
+2017/09/24-23:19:09.330 5528 Level-0 table #17: started
+2017/09/24-23:19:09.387 5528 Level-0 table #17: 2238848 bytes OK
+2017/09/24-23:19:09.404 5528 Delete type=0 #13

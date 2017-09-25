@@ -1,3 +1,3 @@
-2017/06/10-15:59:03.848 1059 Reusing MANIFEST /home/riley/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2017/06/10-15:59:03.848 1059 Recovering log #3
-2017/06/10-15:59:03.848 1059 Reusing old log /home/riley/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000003.log 
+2017/08/19-10:58:39.881 23297 Reusing MANIFEST /home/riley/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/08/19-10:58:39.881 23297 Recovering log #3
+2017/08/19-10:58:39.882 23297 Reusing old log /home/riley/.config/chromium/Default/IndexedDB/https_tpc.googlesyndication.com_0.indexeddb.leveldb/000003.log 

@@ -1,10 +1,11 @@
 
+! cursor
+Xcursor.theme: OSX-ElCap
 
-urxvt.scrollBar: false
-
-urxvt.font: xft:Fira Mono:pixelsize=12
-urxvt.boldfont: xft:Fira Mono:pixelsize=12:weight=bold
-urxvt.saveLines: 1000000
+! urxvt
+URxvt.scrollBar: false
+URxvt.font: xft:Fira Mono:size=11
+URxvt.boldfont: xft:Fira Mono:size=11:weight=bold
 
 ! special
 *.foreground:   #d0d0d0
@@ -60,5 +61,5 @@ rofi.color-normal:        argb:00151515,  argb:b3d0d0d0,  argb:00151515,  argb:b
 rofi.color-urgent:        argb:00151515,  argb:b3d0d0d0,  argb:00151515,  argb:b3ac4142,  argb:b3d0d0d0
 rofi.color-active:        argb:00151515,  argb:b3d0d0d0,  argb:00151515,  argb:b3505050,  argb:b3d0d0d0
 
-!                   'background',       'border',       'separator'
+! rofi etc:         'background',       'border',       'separator'
 rofi.color-window:  argb:b3151515,      argb:b3151515,  argb:b3151515
