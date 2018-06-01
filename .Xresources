@@ -53,7 +53,7 @@ rofi.separator-style:   none
 rofi.hide-scrollbar:    true
 rofi.padding:           20
 rofi.eh:                2
-rofi.bw:                8
+rofi.bw:                0
 rofi.terminal:          termite
 
 ! rofi colours:           'bg',           'fg',           'bgalt',        'hlbg',         'hlfg'

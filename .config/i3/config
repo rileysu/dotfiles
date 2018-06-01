@@ -25,7 +25,6 @@ font pango:fira-mono 10
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
-
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
@@ -125,6 +124,10 @@ bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
+
+# switch left or right between workspace
+bindsym $mod+bracketright workspace next
+bindsym $mod+bracketleft workspace prev
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
