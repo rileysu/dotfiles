@@ -1,65 +1,36 @@
-
-! cursor
-Xcursor.theme: OSX-ElCap
-
-! urxvt
-URxvt.scrollBar: false
-URxvt.font: xft:Fira Mono:size=11
-URxvt.boldfont: xft:Fira Mono:size=11:weight=bold
-
 ! special
-*.foreground:   #d0d0d0
-*.background:   #151515
-*.cursorColor:  #d0d0d0
+*.foreground:   #6688cc
+*.background:   #000c18
+*.cursorColor:  #6688cc
 
 ! black
-*.color0:       #151515
-*.color8:       #505050
+*.color0:       #111111
+*.color8:       #333333
 
 ! red
-*.color1:       #ac4142
-*.color9:       #ac4142
+*.color1:       #ff9da4
+*.color9:       #ff7882
 
 ! green
-*.color2:       #90a959
-*.color10:      #90a959
+*.color2:       #d1f1a9
+*.color10:      #b8f171
 
 ! yellow
-*.color3:       #f4bf75
-*.color11:      #f4bf75
+*.color3:       #ffeead
+*.color11:      #ffe580
 
 ! blue
-*.color4:       #6a9fb5
-*.color12:      #6a9fb5
+*.color4:       #bbdaff
+*.color12:      #80baff
 
 ! magenta
-*.color5:       #aa759f
-*.color13:      #aa759f
+*.color5:       #ebbbff
+*.color13:      #d778ff
 
 ! cyan
-*.color6:       #75b5aa
-*.color14:      #75b5aa
+*.color6:       #99ffff
+*.color14:      #78ffff
 
 ! white
-*.color7:       #d0d0d0
-*.color15:      #f5f5f5
-
-! rofi
-rofi.opacity:           70
-rofi.width:             80
-rofi.lines:             5
-rofi.font:              Fira Mono 14
-rofi.separator-style:   none
-rofi.hide-scrollbar:    true
-rofi.padding:           20
-rofi.eh:                2
-rofi.bw:                0
-rofi.terminal:          termite
-
-! rofi colours:           'bg',           'fg',           'bgalt',        'hlbg',         'hlfg'
-rofi.color-normal:        argb:00151515,  argb:b3d0d0d0,  argb:00151515,  argb:b3505050,  argb:b3d0d0d0
-rofi.color-urgent:        argb:00151515,  argb:b3d0d0d0,  argb:00151515,  argb:b3ac4142,  argb:b3d0d0d0
-rofi.color-active:        argb:00151515,  argb:b3d0d0d0,  argb:00151515,  argb:b3505050,  argb:b3d0d0d0
-
-! rofi etc:         'background',       'border',       'separator'
-rofi.color-window:  argb:b3151515,      argb:b3151515,  argb:b3151515
+*.color7:       #cccccc
+*.color15:      #cccccc

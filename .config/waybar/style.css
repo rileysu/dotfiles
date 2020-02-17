@@ -1,0 +1,80 @@
+* {
+    border: none;
+    border-radius: 0;
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: JetBrains Mono;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #000C18;
+    color: #6688CC;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+#workspaces button {
+    padding: 0 5px;
+    color: #6688CC;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button:hover {
+    background: #DDBB88;
+    color: #000C18;
+    border-bottom: 3px solid #FFEEBB;
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+#workspaces button.focused {
+    background-color: #6688CC;
+    color: #000C18;
+    border-bottom: 3px solid #FFEEBB;
+}
+
+#workspaces button.urgent {
+    background-color: #DDBB88;
+    color: #000C18
+}
+
+#mode {
+    background-color: #64727D;
+    border-bottom: 3px solid #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd, 
+#custom-odal {
+    padding: 0 10px;
+    margin: 0 4px;
+    background-color: #6688CC;
+    color: #000C18;
+}
+
+
