@@ -12,6 +12,10 @@ Plug 'autozimu/LanguageClient-neovim', {
 Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
 
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+
+Plug 'plasticboy/vim-markdown'
+
 call plug#end()
 
 "<==Configs==>
