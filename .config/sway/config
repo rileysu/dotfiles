@@ -7,7 +7,7 @@
 
 # exec
 # mako - lightweight wayland notification daemon
-exec mako --font "JetBrains Mono 10" --background-color "#000C1880" --text-color "#6688CC80" --border-size 0
+exec mako --font "JetBrains Mono 10" --background-color "#000C1880" --text-color "#6688CCFF" --border-size 0
 
 # i3 config file (v4)
 #
@@ -53,6 +53,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #i
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle #mute speaker
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle #mute microphone
+bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 # change focus
 bindsym $mod+j focus left
