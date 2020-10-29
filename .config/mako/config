@@ -1,0 +1,11 @@
+max-visible=1
+anchor=top-right
+font=JetBrains Mono 12
+background-color=#6688CCFF
+text-color=#000C18FF
+border-size=1
+border-color=#FFEEBBFF
+progress-color=#FFEEBBFF
+icon-path=~/.config/icons/
+max-icon-size=256
+default-timeout=5000
