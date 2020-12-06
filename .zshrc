@@ -18,8 +18,5 @@ export PS1="%B%(!.%F{red}%n%f.%F{green}%n%f)@%d:->%b "
 
 export EDITOR=nvim
 
-# Alias
-alias vim=nvim
-
 # Path
 export PATH=$PATH:~/.cargo/bin
