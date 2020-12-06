@@ -10,9 +10,6 @@
 # i3lock
 # scrot (optional but default)
 
-IMAGE=/tmp/lock.png
-SCREENSHOT="grim $IMAGE" # 0.46s
-
 # Alternate screenshot method with imagemagick. NOTE: it is much slower
 # SCREENSHOT="import -window root $IMAGE" # 1.35s
 
@@ -20,14 +17,19 @@ SCREENSHOT="grim $IMAGE" # 0.46s
 # Uncomment one to use, if you have multiple, the last one will be used
 
 # All options are here: http://www.imagemagick.org/Usage/blur/#blur_args
-BLURTYPE="0x9" # 7.52s
+#BLURTYPE="0x9" # 7.52s
 #BLURTYPE="0x2" # 4.39s
 #BLURTYPE="5x2" # 3.80s
-#BLURTYPE="2x8" # 2.90s
+BLURTYPE="2x8" # 2.90s
 #BLURTYPE="2x3" # 2.92s
 
-# Get the screenshot, add the blur and lock the screen with it
-$SCREENSHOT
-convert -scale 50% -blur $BLURTYPE -resize 200% $IMAGE $IMAGE
-#convert $IMAGE -blur $BLURTYPE $IMAGE
-swaylock -f -i $IMAGE --indicator-radius 200
+for OUTPUT in `swaymsg -t get_outputs | jq -r '.[].name'`
+do
+    IMAGE=/tmp/$OUTPUT-lock.png
+    grim -o $OUTPUT $IMAGE
+    convert $IMAGE -scale 6.25% -interpolate Integer -filter point -resize 1600% $IMAGE
+    LOCKARGS="${LOCKARGS} --image ${OUTPUT}:${IMAGE}"
+done
+
+#convert $IMAGE -blur $BLURTYPE
+swaylock -f -i $IMAGE --indicator-radius 200 $LOCKARGS
