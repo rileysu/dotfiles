@@ -1,0 +1,43 @@
+font:
+        normal:
+                family: JetBrains Mono
+        bold:
+                family: JetBrains Mono Medium
+        italic:
+                family: JetBrains Mono Italic
+        bold_italic:
+                family: JetBrains Mono Medium Italic
+        size: 10.0
+
+colors:
+        primary:
+                foreground: '#6688cc'
+                background: '#000c18'
+
+        cursor:
+                cursor: '#6688cc'
+
+        selection:
+                background: '#6688cc'
+
+        normal:
+                black: '#111111'
+                red: '#ff9da4'
+                green: '#d1f1a9'
+                yellow: '#ffeead'
+                blue: '#bbdaff'
+                magenta: '#ebbbff'
+                cyan: '#99ffff'
+                white: '#cccccc'
+
+        bright:
+                black: '#333333'
+                red: '#ff7882'
+                green: '#b8f171'
+                yellow: '#ffe580'
+                blue: '#80baff'
+                magenta: '#d778ff'
+                cyan: '#78ffff'
+                white: '#ffffff'
+
+background_opacity: 0.85
