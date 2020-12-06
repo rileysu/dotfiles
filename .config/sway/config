@@ -36,7 +36,7 @@ font pango:JetBrains Mono 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -45,7 +45,7 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+Shift+d exec rofi -show
 #bindsym $mod+d exec bemenu-run -p '' --fn 'Source Code Pro 10' --nb '#000C18' --nf '#6688CC' --hb '#6688CC' --hf '#000C18'
 
-bindsym $mod+d exec kitty --class launcher ~/.config/sway/launcher.sh
+bindsym $mod+d exec alacritty --class launcher -e ~/.config/sway/launcher.sh
 for_window [app_id="^launcher$"] floating enable, resize set width 1024 px height 512 px 
 
 #special keys
