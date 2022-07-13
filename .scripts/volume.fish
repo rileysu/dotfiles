@@ -1,40 +1,37 @@
-#/bin/sh
+#!/usr/bin/fish
 
 #used as a reference:
 #https://gist.github.com/Blaradox/030f06d165a82583ae817ee954438f2e
 
-volume_adjust=5
+set -g volume_adjust 5
 
-timeout=2000
+set -g timeout 2000
 
-send_volume_notification() {
-	volume=$(pamixer --get-volume-human | sed "s/%//") 
+function send_volume_notification
+	set -l volume (pamixer --get-volume-human | sed "s/%//")
 	
 	#Not the best solution but it works for now until the id situation gets better
 	makoctl dismiss -a
 	
-	if [ $volume = "muted" ]; then	
+	if test $volume = "muted"	
 		notify-send -t $timeout -h INT:value:0 muted
 	else
 		notify-send -t $timeout -h INT:value:$volume volume
-	fi
+	end
 
-}
+end
 
-case $1 in
-	"up")
+switch $argv[1]
+	case "up"
 		pamixer -i $volume_adjust
 		send_volume_notification
-		;;
-	"down")
+	case "down"
 		pamixer -d $volume_adjust
 		send_volume_notification
-		;;
-	"mute")
+	case "mute"
 		pamixer -t
 		send_volume_notification
-		;;
-	*)
+	case '*'
 		echo "Usage: $0 {up|down|mute}"
         	exit 2
-esac
+end

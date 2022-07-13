@@ -14,10 +14,6 @@ window#waybar {
     transition-duration: .5s;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
 /*
 window#waybar.empty {
     background-color: transparent;
@@ -56,23 +52,3 @@ window#waybar.solo {
     background-color: #64727D;
     border-bottom: 3px solid #ffffff;
 }
-
-#clock,
-#battery,
-#cpu,
-#memory,
-#temperature,
-#backlight,
-#network,
-#pulseaudio,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#mpd {
-	padding: 0 10px;
-	margin: 0 4px;
-	background-color: #6688CC;
-	color: #000C18;
-}
-

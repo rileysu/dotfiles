@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/fish
 
 # i3lock blurred screen inspired by /u/patopop007 and the blog post
 # http://plankenau.com/blog/post-10/gaussianlock
@@ -20,16 +20,14 @@
 #BLURTYPE="0x9" # 7.52s
 #BLURTYPE="0x2" # 4.39s
 #BLURTYPE="5x2" # 3.80s
-BLURTYPE="2x8" # 2.90s
+set -l blur_type "2x8" # 2.90s
 #BLURTYPE="2x3" # 2.92s
 
-for OUTPUT in `swaymsg -t get_outputs | jq -r '.[].name'`
-do
-    IMAGE=/tmp/$OUTPUT-lock.png
-    grim -o $OUTPUT $IMAGE
-    convert $IMAGE -scale 6.25% -interpolate Integer -filter point -resize 1600% $IMAGE
-    LOCKARGS="${LOCKARGS} --image ${OUTPUT}:${IMAGE}"
-done
+for output in (swaymsg -t get_outputs | jq -r '.[].name')
+    set -l image "/tmp/$output-lock.png"
+    grim -o $output $image
+    convert $image -scale 6.25% -interpolate Integer -filter point -resize 1600% $image
+    set -a lockargs --image "$output:$image"
+end
 
-#convert $IMAGE -blur $BLURTYPE
-swaylock -f -i $IMAGE --indicator-radius 200 $LOCKARGS
+swaylock --daemonize --indicator-radius 200 $lockargs
